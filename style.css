@@ -47,7 +47,21 @@ a:link, a:visited {
 }
 
 .main {
-    padding: 0 100px;
+    padding: 50px 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.mainText {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+}
+
+.mainImage {
+
 }
 
 .mainHeading {
@@ -59,4 +73,8 @@ a:link, a:visited {
 .mainSecondary {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.beforeAfter {
+    max-height: 375px;
 }
