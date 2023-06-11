@@ -4,10 +4,10 @@ body {
     display: flex;
     margin: 0;
     flex-direction: column;
+    font-family: Roboto, sans-serif;
 }
 
-.header {
-    font-family: Roboto, sans-serif;
+.nav {
     background-color: #1f2937;
     display: flex;
     align-items: center;
@@ -15,28 +15,27 @@ body {
     justify-content: space-between;
 }
 
-.headerLogo {
-    font-family: Roboto, sans-serif;
+.navLogo {
     font-size: 24px;
     font-weight: bold;
 }
 
-a.headerLogo:link, a.headerLogo:visited, a.headerLogo:hover, a.headerLogo:active {
+a.navLogo:link, a.navLogo:visited, a.navLogo:hover, a.navLogo:active {
     color: #f9faf8;
 }
 
-ul.headerLinks {
+ul.navLinks {
     list-style: none;
     display: flex;
     gap: 16px;
     font-size: 18px;
 }
 
-a.headerLinks:link, a.headerLinks:visited {
+a.navLinks:link, a.navLinks:visited {
     color: #e5e7eb;
 }
 
-a.headerLinks:hover, a.headerLinks:active {
+a.navLinks:hover, a.navLinks:active {
     color: darkgray;
 }
 
@@ -44,3 +43,6 @@ a:link, a:visited {
     text-decoration: none;
 }
 
+h1.main {
+    font-weight: 100
+}
