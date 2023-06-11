@@ -64,11 +64,13 @@ a:link, a:visited {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 800;
+    margin: 8px 0;
 }
 
 .mainSecondary {
     font-size: 18px;
     color: #e5e7eb;
+    margin: 8px 0 48px 0;
 }
 
 .beforeAfter {
@@ -76,11 +78,15 @@ a:link, a:visited {
 }
 
 .button {
-    width: 150px;
     padding: 10px;
     background-color: #3882f6;
     color: white;
     text-decoration: none;
     text-align: center;
     border-radius: 5px;
+}
+
+.mainButton {
+    width: 150px;
+    height: 20px;
 }
