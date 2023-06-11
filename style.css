@@ -74,3 +74,13 @@ a:link, a:visited {
 .beforeAfter {
     max-height: 375px;
 }
+
+.button {
+    width: 150px;
+    padding: 10px;
+    background-color: #3882f6;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+}
