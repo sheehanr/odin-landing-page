@@ -75,6 +75,8 @@ a:link, a:visited {
 
 .beforeAfter {
     max-height: 375px;
+    border: 10px solid #fff;
+    border-radius: 20px;
 }
 
 .button {
@@ -89,4 +91,27 @@ a:link, a:visited {
 .mainButton {
     width: 150px;
     height: 20px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.middleHeading {
+    padding: 20px 0;
+}
+
+.middleImageSection {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.middleImages {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882f6;
+    border-radius: 20px;
 }
