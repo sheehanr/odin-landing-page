@@ -7,8 +7,11 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-.nav {
+.top {
     background-color: #1f2937;
+}
+
+.nav {
     display: flex;
     align-items: center;
     padding: 10px 75px;
@@ -43,6 +46,17 @@ a:link, a:visited {
     text-decoration: none;
 }
 
-h1.main {
-    font-weight: 100
+.main {
+    padding: 0 100px;
+}
+
+.mainHeading {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+
+.mainSecondary {
+    font-size: 18px;
+    color: #e5e7eb;
 }
