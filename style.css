@@ -97,6 +97,7 @@ a:link, a:visited {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .middleHeading {
@@ -110,7 +111,9 @@ a:link, a:visited {
     flex-wrap: wrap;
 }
 .middleImageDivs {
-    
+    display: flex;
+    flex-direction: column;
+    flex-basis: 180px;
 }
 
 .middleImages {
