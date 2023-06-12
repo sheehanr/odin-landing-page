@@ -149,3 +149,20 @@ a:link, a:visited {
 .author {
     align-self: center;
 }
+
+.cta {
+    margin: 30px 400px;
+    padding: 20px 60px;
+    background-color: #3882f6;
+    border-radius: 15px;
+}
+
+.ctaHeading {
+    font-size: 20px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.ctaBody {
+    color: #e5e7eb;
+}
