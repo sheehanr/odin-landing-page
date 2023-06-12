@@ -127,3 +127,25 @@ a:link, a:visited {
     font-size: 18px;
     color: #1f2937;
 }
+
+.bottom {
+    background-color: #e5e7eb;
+    padding: 40px 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+    width: 900px;
+    text-align: justify;
+}
+
+.author {
+    align-self: center;
+}
